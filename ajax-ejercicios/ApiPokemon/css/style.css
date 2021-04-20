@@ -8,24 +8,27 @@ html {
 .loader {
   display: block;
   margin: auto;
+font-size: 100px;
+fill: black;
 }
 .grid-fluid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  justify-items: center;
+  /* justify-items: center; */
+  gap: 1rem;
 }
 .grid_fluid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
  text-align: justify;
- /* gap: 1em; */
+ gap: 1em;
 }
 .container {
   background: yellow;
 }
 figure{
-  background-color: rgb(187, 186, 186);
+  background-color: rgba(233, 27, 27, 0.787);
   border-radius: 1rem;
-  margin:0.85rem 0;
-  padding: 1rem ;
+  margin:0.75rem 0;
+  padding:0.85rem 0 ;
 }
